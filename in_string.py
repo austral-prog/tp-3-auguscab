@@ -1,16 +1,11 @@
 def check_vowels():
     # Código a implementar utilizando input.
     nombre= input("Ingrese su nombre: ")
-    a= "a" in nombre.lower()
-    e= "e" in nombre.lower()
-    i= "i" in nombre.lower()
-    o= "o" in nombre.lower()
-    u= "u" in nombre.lower()
-    print("contiene a: " + str(a))
-    print("contiene e: " + str(e))
-    print("contiene i: " + str(i))
-    print("contiene o: " + str(o))
-    print("contiene u: " + str(u))
+    print(f"contiene a: {"a" in nombre.lower()}")
+    print(f"contiene e: {"e" in nombre.lower()}")
+    print(f"contiene i: {"i" in nombre.lower()}")
+    print(f"contiene o: {"o" in nombre.lower()}")
+    print(f"contiene u: {"u" in nombre.lower()}")
 
 
 # Para verificar este ejercicio ejecutar el comando
